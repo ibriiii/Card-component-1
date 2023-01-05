@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.flex-container{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    left: 33%;
+    top: 25%;
+    border-radius: 10px;
+}
+
+.flex-item {
+    width: 300px;
+    padding: 20px 30px;
+}
+
+.image1 {
+    width: 300px;
+    background-image: url(/product-preview-card-component-main/product-preview-card-component-main/images/image-product-desktop.jpg);
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.p1 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    line-height: 40px;
+    font-size: 40px;
+}
+
+.p2 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.flex-container-2 {
+    display: grid;
+    align-items: center;
+    margin-top: -25px;
+    margin-bottom: -18px;
+}
+
+.p3-1 {
+    font-family: 'Fraunces', serif;
+    font-size: 38px;
+    margin-right: -23px;
+    color: hsl(158, 36%, 37%);
+}
+
+.p3-2 {
+    font-family: 'Montserrat', sans-serif;
+    grid-area: 1 / 2;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    text-decoration:line-through;
+}
+
+.Boton {
+    display: flex;    
+    align-content: center;
+    align-items: center;
+    width: 295px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(158, 70%, 11%);
+    color: aliceblue;
+}
+
+.Boton-text {
+    padding-bottom: 4.2px;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Boton-image {
+    padding-left: 98.3px;
+}
